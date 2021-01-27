@@ -29,15 +29,7 @@ export let shoppingItems = [
       price: 360
   }
 ]
-const ShoppingItem = ({ shoppingItems }) => {
-  return (
-    shoppingItems.map(item => 
-      <div key={item.id}>
-          <p>Name: {item.name}</p>
-          <p>Price: {item.price}</p>
-      </div>)
-)
-}
+
 
 ReactDOM.render(
   <React.StrictMode>
